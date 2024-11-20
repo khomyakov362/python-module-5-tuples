@@ -84,6 +84,5 @@ def print_results(answers : dict) -> None:
     print(f'Ваш уровень:\n{level}')
 
 dictionary = choose_dictionary()
-print(dictionary)
 answers = check_dictionary(dictionary)
 print_results(answers)
