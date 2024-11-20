@@ -24,7 +24,7 @@ def choose_dictionary() -> dict:
     "except": "кроме",
     }
 
-    user_input = input('Введите уровень сложности: "простой", "средний" или "сложный": ')
+    user_input = input('Введите уровень сложности: "простой", "средний" или "сложный": ').lower().strip()
     match user_input:
         case "простой":
             return words_easy
